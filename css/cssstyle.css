@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Times, sans-serif;
+  /* background-color: lightblue; */
+}
+
+h1 {
+  display: block;
+  font-size: 2.55em;
+  color: grey;
+  margin-top: .79em;
+  margin-bottom: 0.15em;
+  margin-left: -.10em;
+  margin-right: auto;
+  font-weight: bold;
+  width: 80%;
+  text-align: center;
+}
+
+h3 {
+  display: block;
+  font-size: 1.55em;
+  color: grey;
+  margin-top: 1.50em;
+  margin-bottom: 1.55em;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  display: block;
+  color: grey;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  border-bottom:2px solid grey;
+  padding-bottom:1px;
+
+}
+
+.reallogo {
+  width: 60px;
+  height: 60px;
+  margin-top: 1.19em;
+  margin-bottom: 0.15em;
+  flex-basis: 60px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 0px solid transparent;
+  min-height: 150px;
+}
+
+.logoimg {
+  max-width: 100%;
+  height: auto;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.projectimg {
+  max-width: 100%;
+  height: auto;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  padding: 0px;
+  float: center;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgtext {
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+  display: block;
+  padding: 5px;
+
+}
+
+@media screen and (min-width: 500px){
+
+.imgtext {
+  width: 32%;
+  height: 300px;
+}
+
+h1 {
+  text-align: left;
+  margin-right: 10px;
+}
+
+h3 {
+  text-align: center;
+  border-bottom:2px solid grey;
+  padding-bottom:1px;
+}
+
+.pspecial {
+  text-align: left;
+  margin-left: 3.75em;
+}
+
+}
