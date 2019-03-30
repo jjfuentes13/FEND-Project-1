@@ -115,3 +115,30 @@ h3 {
 }
 
 }
+
+@media screen and (min-width: 650px){
+
+.logoimg {
+  max-width: 650px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgtext {
+  max-width: : 500px;
+}
+
+.projectimg {
+  max-height: 300px;
+}
+
+}
+
+@media screen and (min-width: 650px){
+
+.projectimg {
+  max-height: 400px;
+}
+
+}
